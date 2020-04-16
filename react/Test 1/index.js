@@ -21,7 +21,7 @@ export default class DataParser extends Component {
   
   componentWillMount() {
 
-    var csvFilePath = require("../data.csv");
+    var csvFilePath = require("./data.csv");
     var Papa = require("papaparse/papaparse.min.js");
     Papa.parse(csvFilePath, {
       header: true,

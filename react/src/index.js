@@ -122,7 +122,7 @@ class Chartsjs extends React.Component {
   }
   
   componentWillMount() {
-
+    var csvFilePath = require("./data.csv");
     var Papa = require("papaparse/papaparse.min.js");
     Papa.parse(csvFilePath, {
       header: true,

@@ -11,7 +11,7 @@ To run apps do:
 **```sudo apt install nodejs```**
 2. Install comand **serve**: \
 **```npm install -g serve```**
-3. Run the app: \
+3. Run the app (you need to be in the **vue** folder): \
 **```serve -s chart```** 
 
 To see other graphs librariies: \

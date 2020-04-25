@@ -9,10 +9,9 @@ In the tests we upload **data.csv** (**NB**: it works **only with this table** f
 To run apps do: 
 1. If it is not yet installed install **npm** and **node.js**. The simplest way to do it: \
 **```sudo apt install nodejs```**
-2. Upload **chart**, **plotly**, **vue-svg-charts** folders and **data.csv** file from this repository. \
-3. Install comand **serve**: \
+2. Install comand **serve**: \
 **```npm install -g serve```**
-4. Run the app: \
+3. Run the app: \
 **```serve -s chart```** 
 
 To see other graphs librariies: \

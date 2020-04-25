@@ -4,10 +4,22 @@
       <div class = "sub_page">
           <h5> Test Vue.js + charts.js</h5>
           <div class = "rowrow">
-              <img alt="Vue logo" src="./assets/logo.png">
+              <img alt="Vue logo" src="./assets/Valeriy.png">
           </div>
           <div class = "rowrow">
-              <input type="file" @change="parseFile" multiple>
+              <div class = dash v-cloak @drop.prevent="parseFile" @dragover.prevent>
+                  <ul/>
+                  <div class="upload"> Drop or
+                    <button class = "upload-btn-wrapper">
+                        Select files
+                        <div>
+                            <input type = "file" @change="parseFile">
+                        </div>
+                    </button>
+                    <ul/>
+                  </div>
+              </div>
+              <ul/>
           </div>
           <div v-if="histogram[0]">
             <div v-for="i in 100" :key = "i">
@@ -65,7 +77,7 @@ export default{
   data() {
     return {
       csvData: [],
-      nbins: 10
+      nbins: 20
     }
   },
   computed: {

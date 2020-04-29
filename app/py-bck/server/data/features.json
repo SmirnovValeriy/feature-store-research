@@ -1,0 +1,22 @@
+[
+  {
+    "name": "amt_credit",
+    "type": "continuous",
+    "family": "app"
+  },
+  {
+    "name": "days_birth",
+    "type": "continuous",
+    "family": "app"
+  },
+  {
+    "name": "name_education_type",
+    "type": "categorical",
+    "family": "app"
+  },
+  {
+    "name": "max_overdue_sum",
+    "type": "continuous",
+    "family": "bur"
+  }
+]

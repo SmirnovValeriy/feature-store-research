@@ -1,0 +1,26 @@
+[
+  {
+    "name": "amt_credit",
+    "distribution_stability": 0.22617086913227813,
+    "event_rate_stability": 0.9271403356657666,
+    "hash": "b267035d728f042257b1850908c311af98299c89dbdf2b1e7f437144a3d4f748"
+  },
+  {
+    "name": "days_birth",
+    "distribution_stability": 0.9541821541743535,
+    "event_rate_stability": 0.4444448880462736,
+    "hash": "944e982744ff531842ad64915fc8e07378a0c62f0e354e20775f94d6b02e54b5"
+  },
+  {
+    "name": "max_overdue_sum",
+    "distribution_stability": 0.01208654309398094,
+    "event_rate_stability": 0.21320626618474992,
+    "hash": "86fd4fb52dacc47416ec6e19baf19e561245d5f346b912de2f5e85dddf2f9e97"
+  },
+  {
+    "name": "name_education_type",
+    "distribution_stability": 0.9893793708433963,
+    "event_rate_stability": 0.7038216180925874,
+    "hash": "d03a9d4235888605b115554e3cef1ffaf913e3c316e62de61a6ee8e3b7b76f80"
+  }
+]

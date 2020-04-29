@@ -1,0 +1,5 @@
+{
+  "grouping_method": "quantile",
+  "groups_count": 5,
+  "reference_dataset": "first" либо "all"
+}

@@ -3,6 +3,6 @@ The repository contains files relevant to the research I'm doing at the universi
 
 **Interface:**
 
-!(interface.gif)[interface.gif]
+![interface.gif](interface.gif)
 
 **REPOSITORY IS CURRENTLY BEING UPDATED**
